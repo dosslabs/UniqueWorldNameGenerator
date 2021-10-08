@@ -1,3 +1,12 @@
+# code src: https://dos.tools & Tyreilif
+# inputNames src: https://FantasyNameGenerators.com
+
+#########################################################################################
+#
+# GUI Tkinter-based World-name Generator 
+#
+#########################################################################################
+
 from tkinter import *
 import random
 import math
@@ -7,8 +16,7 @@ root = Tk()
 root.title('Unique World Name Generator')
 root.geometry("600x250")
 
-textGenerated = ""
-inputString = ["Sibunerth","Bulugawa","Ugniuq","Punzorth","Riutera","Tourus","Gidihiri","Duvunia","Pholla","Bonkegantu","Oseiruta","Esone","Cithapus","Yawei","Hautune","Lumibos","Strucuhiri","Cherth","Koniuliv","Lalmuiyama","Bucrippe","Ranzurn","Helara","Danov","Chogiter","Phehestea","Streshan 20","Obinia","Dingoihiri","Sobyke","Gomapus","Tinides","Ibos","Nevepra","Thizoria","Thorix","Othawei","Envizuno","Xobbeubos","Tugnarth","Kitryria","Eria","Kaurilia","Chisoter","Thoyeclite","Llides","Bibbeuwei","Pebbuecarro","Henreron","Innone","Vastea","Zuria","Thomizuno","Zopetov","Truna","Ilniawei","Yunkabos","Uphosie","Usara","Setis","Iwei","Duveyama","Subitera","Nadus","Cunvarilia","Ronrulea","Xutrolla","Amapus","Pualara","Xogawa","Striyohines","Tresuvis","Luna","Nankiter","Bichocury","Ogryke","Dallolla","Ubos","Oitov","Cheeter","Llomenope","Niuq","Udragawa","Munvonope","Silurn","Ecriri","Soatov","Meucury","Brichimia","Tretalia","Troth","Hogeatov","Nasiarilia","Xocora","Alvosie","Gacury","Xeuter","Creguter","Phalohiri","Vonoe"]
+inputString = ["Sibunerth","Bulugawa","Ugniuq","Punzorth","Riutera","Tourus","Gidihiri","Duvunia","Pholla","Bonkegantu","Oseiruta","Esone","Cithapus","Yawei","Hautune","Lumibos","Strucuhiri","Cherth","Koniuliv","Lalmuiyama","Bucrippe","Ranzurn","Helara","Danov","Chogiter","Phehestea","Streshan","Obinia","Dingoihiri","Sobyke","Gomapus","Tinides","Ibos","Nevepra","Thizoria","Thorix","Othawei","Envizuno","Xobbeubos","Tugnarth","Kitryria","Eria","Kaurilia","Chisoter","Thoyeclite","Llides","Bibbeuwei","Pebbuecarro","Henreron","Innone","Vastea","Zuria","Thomizuno","Zopetov","Truna","Ilniawei","Yunkabos","Uphosie","Usara","Setis","Iwei","Duveyama","Subitera","Nadus","Cunvarilia","Ronrulea","Xutrolla","Amapus","Pualara","Xogawa","Striyohines","Tresuvis","Luna","Nankiter","Bichocury","Ogryke","Dallolla","Ubos","Oitov","Cheeter","Llomenope","Niuq","Udragawa","Munvonope","Silurn","Ecriri","Soatov","Meucury","Brichimia","Tretalia","Troth","Hogeatov","Nasiarilia","Xocora","Alvosie","Gacury","Xeuter","Creguter","Phalohiri","Vonoe"]
 choice = IntVar()
 
 def cvtInt(value):
