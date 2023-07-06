@@ -1,5 +1,5 @@
 UniqueWorldNameGenerator
 
-code src: https://dos.tools & Tyreilif
+code src: https://dosslabs.com & Tyreilif
 
 inputNames src: https://FantasyNameGenerators.com
